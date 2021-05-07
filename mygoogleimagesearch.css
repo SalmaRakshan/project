@@ -1,0 +1,70 @@
+.image img
+{
+  width : 275px;
+  position:relative;
+  top :140px;
+}  
+
+.header a 
+{
+text-decoration: none;
+color: rgb(117, 115, 115);
+font-family: sans-serif;
+font-size: 15px;
+padding-right: 20px;
+}
+
+.header a:hover { 
+    text-decoration: none;
+    color: rgb(117, 115, 115);  }
+
+#imagesearch
+{
+  background-image: url("search.png");
+  background-size: 15px;
+  background-repeat: no-repeat;
+    background-position: 7px;
+  border: 1px solid rgb(211, 210, 210);
+  outline:none;
+  border-radius: 25px;/* the edges of the textbox will be curved*/
+  max-width: 45%;
+  min-width : 400px;
+  height: 7%;
+  padding: 5px 8px 5px 25px;
+  font:13px arial,sans-serif;
+  position:relative;
+  top: 150px;
+  display: block;
+  margin: auto;
+  box-shadow: none!important;
+}
+#imagesearch:hover
+{
+  box-shadow: 1px 1px 10px rgb(241, 240, 240), -1px -1px 10px rgb(241, 240, 240); 
+}
+#tag{
+  font:20px;
+  position: relative;
+  top: 115px;
+  left: 50%;
+  padding-left: 75px;
+  color:rgb(66, 133, 244);
+}
+.footer{
+  position: relative;
+  top: 480px;
+  background-color: #f1f1f1;
+}
+.country{
+  padding: 10px 10px 20px;
+  color: rgb(117, 117, 117);
+  border-bottom: 1px solid rgb(218, 216, 216);
+}
+.footer-content{
+  padding: 10px 0;
+}
+.footer-content a{ 
+  padding:14px;
+  color: rgb(117, 117, 117);
+  font-size: 15px;    
+}
