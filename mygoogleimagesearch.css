@@ -44,11 +44,10 @@ float: right;
   top: 150px;
   display: block;
   margin: auto;
-  box-shadow: none!important;
 }
 #imagesearch:hover
 {
-  box-shadow: 1px 1px 10px rgb(241, 240, 240), -1px -1px 10px rgb(241, 240, 240); 
+  box-shadow: 1px 1px 10px rgb(211, 211, 211);  
 }
 #tag{
   font:20px;

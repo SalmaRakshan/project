@@ -1,7 +1,12 @@
+*{
+  font-family: sans-serif;
+}
 .image img
 { width:272px;
-  top: 60px;
+  top: 70px;
   position: relative;
+  display: block;
+  margin: auto;
 }
 .header a 
 {
@@ -9,10 +14,8 @@ text-decoration: none;
 color: rgb(107, 107, 107);
 font-family: sans-serif;
 font-size: 15px;
-padding-right: 20px;
 }
-
-#search
+.search
 {
     background-image: url("search.png");
     background-size: 15px;
@@ -23,38 +26,35 @@ padding-right: 20px;
     outline:none;
     border-radius: 25px; /* the edges of the textbox will be curved */
     padding: 5px 8px 5px 35px;
+    width: 100%;
     max-width:45%;
     min-width: 400px;
     height: 7%;
     margin: auto;
     font:13px arial,sans-serif;
     position: relative;
-    top: 130px;
+    top: 116px;
     
 }
-#search:hover
+.search:hover
 {
-  box-shadow: 1px 1px 10px rgb(241, 240, 240), -1px -1px 10px rgb(241, 240, 240); 
-}
-
-#search:focus
-{
-  box-shadow: none!important;
+  box-shadow: 1px 1px 10px rgb(206, 206, 206)!important; 
 }
 .search-button input
 {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
+  color: rgb(80, 80, 80);
   outline:none; 
-  padding: 0px 16px;
-  margin : 10px 5px;
   width:175x;
   height:35px;
-  font: 13px, arial, sans-serif;
+  font-size: 13px;
+  font-family: arial,sans-serif;
   text-align: center;
   cursor: pointer;
   position: relative;
-  top : 150px;
+  top : 140px;
+  left: 42%;
  }
   .search-button input:hover
   {
@@ -62,7 +62,7 @@ padding-right: 20px;
   }
   .footer{
     position: relative;
-    top: 240px;
+    top: 270px;
     width: 100%;
     background-color: #f1f1f1;
   }
@@ -75,7 +75,9 @@ padding-right: 20px;
     padding: 10px 0 10px 0;
   }
   .footer-content a{ 
-    padding:14px;
+    padding:10px;
     color: rgb(117, 117, 117);
-    font-size: 15px;    
+    font-size: 15px;   
+    font-family:  sans-serif; 
+    text-decoration: none;
   }
